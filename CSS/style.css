@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar
+{
+    height: 11vh;
+    background-color: #111;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    position:sticky;
+    top:0px;
+    width: 100%;
+    z-index: 1;
+    padding: 5px 16px;
+}
+.logo
+{
+    margin: 0px 15px;
+}
+.logo img
+{
+    height: 70px;
+    width: 80px;
+    padding: 0px 0px;
+}
+
+.navbar ul
+{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.navbar ul li
+{
+    font-size: 1.3rem;
+    padding: 0 20px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    display: block;
+    padding: 3px 20px;
+    text-transform: uppercase;
+    color:#fff;
+    letter-spacing: 3px;
+    transition: .5s;
+    padding: 10px 20px;
+}
+.navbar ul li a:hover
+{
+    background-color: #fff;
+    color: #000;
+    border-radius: 50px;
+}
+.active
+{
+  border-bottom: 2px solid white;
+}
+/* Image section */
+
+.hero__section
+{
+    background-image: linear-gradient(rgb(65, 55, 55),rgb(65,55,55)), url("../Images/background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content
+{
+  margin-top:60px;
+  padding: 40px 200px;
+  height: 45vh;
+  color: white;
+  width: auto;
+}
+.content h1
+{
+  font-size: 2.8rem;
+  padding: 15px;
+}
+.content p
+{
+  text-align: center;
+  font-size: 1.8rem;
+}
+/* Sports */
+.info
+{
+  padding: 40px 50px; 
+   padding-bottom: 20px;
+}
+.info p
+{
+  padding: 15px;
+  text-align: center;
+}
+.sinfo p
+{
+  padding: 5px;
+  justify-content : center;
+}
+/* Card section */
+.card
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.crd-text
+{
+  text-align: center;
+}
+
+/* Sidebar */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 20;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    
+  }
+  
+  .sidenav a:hover {
+    background:white;
+    color: black;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    
+  }
+  #sidebar
+  {
+    position: fixed;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* Main info */
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+   .secs
+  {
+      padding: 80px 0px;
+  }
+
+  .side_img
+{
+    width:300px;
+    height:300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  /* Footer */
+  footer
+  {
+    padding-top: 20px;
+    margin-top:20px;
+  }
+  
